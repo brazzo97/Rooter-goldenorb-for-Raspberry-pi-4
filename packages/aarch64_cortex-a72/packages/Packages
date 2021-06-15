@@ -1,0 +1,423 @@
+Package: cgi-io
+Version: 2020-10-27-ab4c3471-19
+Depends: libc, libubox20210516, libubus20210603
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 9429
+Filename: cgi-io_2020-10-27-ab4c3471-19_aarch64_cortex-a72.ipk
+Size: 10238
+SHA256sum: d451b61875997c70707c4485bfe7775e272f6934cc2149a8dc8feca610c5d1b5
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-date
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/date:/usr/libexec/date-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 44315
+Filename: coreutils-date_8.32-6_aarch64_cortex-a72.ipk
+Size: 45101
+SHA256sum: ef87f69a072d9619454af3c81451876b8da91bac509b98e35a2f1ab4ab3cc0d7
+Description:  Full version of standard GNU date utility.
+
+Package: coreutils
+Version: 8.32-6
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 104
+Filename: coreutils_8.32-6_aarch64_cortex-a72.ipk
+Size: 991
+SHA256sum: 018c806ef079b7f6bd87627461ad1e4530582ca81856ae2ac9d9e04362610a6c
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.77.0-1
+Depends: libc, libcurl4
+License: MIT
+Section: net
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a72
+Installed-Size: 56461
+Filename: curl_7.77.0-1_aarch64_cortex-a72.ipk
+Size: 57261
+SHA256sum: 2ce788ba19b162960530e7cf2abdf58e5e1d961c8720194d92e957609dbc819a
+Description:  A client-side URL transfer utility
+
+Package: ddns-scripts-services
+Version: 2.8.2-9
+Depends: libc
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 3982
+Filename: ddns-scripts-services_2.8.2-9_all.ipk
+Size: 4579
+SHA256sum: f65b0e23dd6dbf0ebb8c8b44021f6562ebe787771c663bb936e0b0a2b27547a0
+Description:  Dynamic DNS Client definitions for supported services
+
+Package: ddns-scripts
+Version: 2.8.2-9
+Depends: libc, ddns-scripts-services
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 23560
+Filename: ddns-scripts_2.8.2-9_all.ipk
+Size: 24583
+SHA256sum: f848d367e7c76fb2e4e66eb5700be5579666b274c149c0f6fc004dd4a1482691
+Description:  Dynamic DNS Client scripts (with IPv6 support)
+ A highly configurable set of scripts for doing dynamic dns updates.
+ - IPv6 support
+ - DNS server support
+ - Glue Record support (require BIND host or KNOT host)
+ - DNS requests via TCP
+ - Proxy server support
+ - log file support
+ - support to run once
+ Version: 2.8.2-9
+ Info   : https://openwrt.org/docs/guide-user/services/ddns/client
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 5289
+Filename: etherwake_1.09-5_aarch64_cortex-a72.ipk
+Size: 6225
+SHA256sum: 5d5e79e35e3d56f4bfc381eee7ef4837785370eb1386e02107e70ece27289848
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: hd-idle
+Version: 1.05-2
+Depends: libc
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 4910
+Filename: hd-idle_1.05-2_aarch64_cortex-a72.ipk
+Size: 5709
+SHA256sum: 6b5c5e1da128437454cf1ac26ca682036f26f481d7af1951558b54f6cb2afcef
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: httping
+Version: 2.5-1
+Depends: libc, libopenssl1.1
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 25934
+Filename: httping_2.5-1_aarch64_cortex-a72.ipk
+Size: 26735
+SHA256sum: c3c82f280267b75e0ed6ac7230164992f87fbabf89cd1e82f6bb4c6fe2b0443d
+Description:  Give it an url, and it'll show you how long it takes to connect, send a
+ request and retrieve the reply (only the headers). Be aware that the
+ transmission across the network also takes time!
+ This package is built with SSL support.
+
+Package: ksmbd-server
+Version: 3.3.9-1
+Depends: libc, kmod-fs-ksmbd, libnl-core200, libnl-genl200
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 63564
+Filename: ksmbd-server_3.3.9-1_aarch64_cortex-a72.ipk
+Size: 64430
+SHA256sum: 2256155b13536b79cc3af41aa5bc4d3bfb3bebdfcb7460f5634a501b087c3ed7
+Description:  installs: ksmbd.mountd
+ 
+ This provides the basic fileserver service and is the minimum needed to serve 'guest only' file shares or use a existing user database file ksmbdpwd.db.
+
+Package: libcurl4
+Version: 7.77.0-1
+Depends: libc, libwolfssl4.7.0.39c36f2f, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a72
+Installed-Size: 155941
+Filename: libcurl4_7.77.0-1_aarch64_cortex-a72.ipk
+Size: 156743
+SHA256sum: 447ed4c2805bbe36b140779fced31cb1f007e415733440502d25694941cf61d0
+Description:  A client-side URL transfer library
+
+Package: libimobiledevice-utils
+Version: 1.3.0-2
+Depends: libc, libimobiledevice
+License: GPL-2.0-or-later
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 105734
+Filename: libimobiledevice-utils_1.3.0-2_aarch64_cortex-a72.ipk
+Size: 106020
+SHA256sum: fb9f79e303599287d9f74a049855ee0a2edbdd6a89919c6a04ecbadbdc55c6d4
+Description:  libimobiledevice is a software library that talks the protocols to support
+ iPhone®, iPod Touch®, iPad® and Apple TV® devices.
+ This package contains the libimobiledevice utilities.
+
+Package: libimobiledevice
+Version: 1.3.0-2
+Depends: libc, libplist, libusbmuxd, libopenssl1.1
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 59045
+Filename: libimobiledevice_1.3.0-2_aarch64_cortex-a72.ipk
+Size: 59925
+SHA256sum: 9f40b1b28ecf6226351c09d9e65bb9a8ed1d1e897356c182648bb737d8bcf4f6
+Description:  libimobiledevice is a software library that talks the protocols to support
+ iPhone®, iPod Touch®, iPad® and Apple TV® devices.
+
+Package: libplist
+Version: 2.2.0-3
+Depends: libc, libxml2
+Section: libs
+CPE-ID: cpe:/a:libimobiledevice:libplist
+Architecture: aarch64_cortex-a72
+Installed-Size: 23431
+Filename: libplist_2.2.0-3_aarch64_cortex-a72.ipk
+Size: 24189
+SHA256sum: c97892ca06153ffa60e5f6458e22c26a9fdc706d31fa784486ea9e59814a8868
+Description:  A library to handle Apple Property List format whereas it's binary or XML
+
+Package: libusbmuxd-utils
+Version: 2.0.2-1
+Depends: libc, libusbmuxd
+License: GPL-2.0-or-later
+Section: utils
+CPE-ID: cpe:/a:libimobiledevice:libusbmuxd
+Architecture: aarch64_cortex-a72
+Installed-Size: 11811
+Filename: libusbmuxd-utils_2.0.2-1_aarch64_cortex-a72.ipk
+Size: 12736
+SHA256sum: 02c0276b275b28c9a1fb9db2c017fe264fa9dbb18fe6dad8a168ce815068c1e5
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+ This package contains the libusbmuxd utilities.
+
+Package: libusbmuxd
+Version: 2.0.2-1
+Depends: libc, libplist, libpthread, libxml2, zlib
+Section: libs
+CPE-ID: cpe:/a:libimobiledevice:libusbmuxd
+Architecture: aarch64_cortex-a72
+Installed-Size: 16891
+Filename: libusbmuxd_2.0.2-1_aarch64_cortex-a72.ipk
+Size: 17903
+SHA256sum: 9b7212566e389ded3126a167b554e7d3df48fcc514f388aee563cb5edf316347
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+ This package contains the libusbmuxd shared library.
+
+Package: libxml2
+Version: 2.9.12-1
+Depends: libc, libpthread, zlib
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: aarch64_cortex-a72
+Installed-Size: 503002
+Filename: libxml2_2.9.12-1_aarch64_cortex-a72.ipk
+Size: 502046
+SHA256sum: 9f2f82b275721111f9b8e496c51d7814d43100b632de4c55acb31509778019e3
+Description:  A library for manipulating XML and HTML resources.
+
+Package: mwan3
+Version: 2.10.9-1
+Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 21073
+Filename: mwan3_2.10.9-1_all.ipk
+Size: 22109
+SHA256sum: dda7453d7ce47a73a524dde768455b3cb68b446fde0a5690032c89beabb39b1f
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: nano
+Version: 5.7-1
+Depends: libc, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:nano
+Architecture: aarch64_cortex-a72
+Installed-Size: 72892
+Filename: nano_5.7-1_aarch64_cortex-a72.ipk
+Size: 73703
+SHA256sum: a403601ac1a83b432c13a7ffbe22e45fff8271c5c63a2c58f1e659dce115d04a
+Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: nft-qos
+Version: 1.0.6-2
+Depends: libc, kmod-nft-netdev, kmod-nft-bridge, nftables
+License: GPL-2.0
+Section: utils
+Architecture: all
+Installed-Size: 4839
+Filename: nft-qos_1.0.6-2_all.ipk
+Size: 5709
+SHA256sum: 562fdd91d4b995418a53c0fbedbc7532a5fb5c338d04706b92c9dc6cc2c37d93
+Description:  This package provides implementation for qos over nftables.
+ Currently, static/dynamic qos and traffic shaping are supported.
+
+Package: nlbwmon
+Version: 2020-04-11.1-34a18876-3
+Depends: libc, libubox20210516, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 21228
+Filename: nlbwmon_2020-04-11.1-34a18876-3_aarch64_cortex-a72.ipk
+Size: 22030
+SHA256sum: 82c1611497b6cdc2102697e098bc427e3bcf11c3906f6f5c7e7f6de201ef9d05
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: ntfs-3g
+Version: 2017.3.23-4-fuseint
+Depends: libc, kmod-fuse, libpthread
+License: GPL-2.0-only LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:ntfs-3g:ntfs-3g
+Architecture: aarch64_cortex-a72
+Installed-Size: 186334
+Filename: ntfs-3g_2017.3.23-4-fuseint_aarch64_cortex-a72.ipk
+Size: 187422
+SHA256sum: 99834904a27164dd5f573c685999bcba63e71a3bdb78095c2b439c1345bd36df
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: openvpn-easy-rsa
+Version: 3.0.8-3
+Depends: libc, openssl-util
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 27911
+Filename: openvpn-easy-rsa_3.0.8-3_all.ipk
+Size: 28772
+SHA256sum: 6e29c330d65c95e2cf0f0df8b89763a53227d05871ada2e28c149c5004d0b948
+Description:  CLI utility to build and manage a PKI CA.
+
+Package: openvpn-openssl
+Version: 2.5.0-1
+Depends: libc, kmod-tun, libopenssl1.1
+Provides: openvpn, openvpn-crypto
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:openvpn:openvpn
+Architecture: aarch64_cortex-a72
+Installed-Size: 223220
+Filename: openvpn-openssl_2.5.0-1_aarch64_cortex-a72.ipk
+Size: 223765
+SHA256sum: 3b429fd7e80a176ac57de9f2d36e87c5ba76239521f2aad4e95d7bd41a5e39e8
+Description:  Open source VPN solution using OpenSSL
+
+Package: p910nd
+Version: 0.97-9
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 7220
+Filename: p910nd_0.97-9_aarch64_cortex-a72.ipk
+Size: 8224
+SHA256sum: 95e8bbc6ec057b3becf56c57faca17077e38d487eaf34948ac084aa18be2d959
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: picocom
+Version: 3.1-5
+Depends: libc
+License: LICENSE.txt
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22813
+Filename: picocom_3.1-5_aarch64_cortex-a72.ipk
+Size: 23461
+SHA256sum: 2ee28207ad208156fc4ea9de4bc1f862b85591cbf7225f7926a0cbd71efb439f
+Description:  minimal dumb-terminal emulation program
+
+Package: sqm-scripts
+Version: 1.5.0-2
+Depends: libc, tc, kmod-sched-core, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra, kmod-sched-cake
+License: GPL-2.0-only
+Section: net
+Architecture: all
+Installed-Size: 17895
+Filename: sqm-scripts_1.5.0-2_all.ipk
+Size: 18796
+SHA256sum: 790eb2720bd07908e631a0c8406cb228132e9901e463276b10b6e5caa8f80d18
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: usbmuxd
+Version: 1.1.1-1
+Depends: libc, librt, libusb-1.0-0, libusbmuxd, libopenssl1.1, libimobiledevice
+License: GPL-2.0-or-later
+Section: utils
+CPE-ID: cpe:/a:libimobiledevice:usbmuxd
+Architecture: aarch64_cortex-a72
+Installed-Size: 31464
+Filename: usbmuxd_1.1.1-1_aarch64_cortex-a72.ipk
+Size: 32386
+SHA256sum: 1b88a1ac2b39713a9e328443580b32e8b9da07bdf3780e50946085419fd1755c
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+
+Package: wsdd2
+Version: 2020-11-19-e0cf50d5-1
+Depends: libc
+License: GPL-3.0-only
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 17674
+Filename: wsdd2_2020-11-19-e0cf50d5-1_aarch64_cortex-a72.ipk
+Size: 18620
+SHA256sum: 0ca8e82e3376afbb3da5209e1e1aa3f3e5dd2303a4a85db14ba089b0da6eecf1
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients looking for file shares.
+ It also implements LLMNR multicast name lookup services.
+
